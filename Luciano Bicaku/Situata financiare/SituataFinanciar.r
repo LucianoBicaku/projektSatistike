@@ -9,7 +9,7 @@ color <- c(
 )
 with(dataset, pie(table(Situata.financiare),
     labels = levels(Situata.financiare), xlab = "", ylab = "",
-    main = "Situat financiare", col = color,
+    main = "Situata financiare", col = color,
     border = "white"
 ))
 dev.off()
